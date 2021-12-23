@@ -1,0 +1,31 @@
+/* Show it is fixed to the top */
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* This section is used to make the map div full height and width*/
+body {
+  padding-top: 55px;
+}
+
+main,
+#map {
+  height: 100%;
+  min-height: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
